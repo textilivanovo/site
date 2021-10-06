@@ -1,0 +1,199 @@
+body { padding: 0;
+	margin:0;
+	color:000;
+	font-family:'Anton',sans-serif;
+	font-size: 16px;
+}
+h1,h2,h3,h4,h5{
+	padding: 0;
+	margin:0;
+	text-transform:uppercase;
+}
+ul,li{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;/*позиционирование по центру*/
+}
+.box{
+	width:1280px;
+	height:100px;
+	background: blue;
+}
+/*	Верхняя полоска*/
+.header {background: #22233b; no-repeat center top / cover;
+height: 64px;}
+header a{color: #ffffff;}
+.menu{display: flex;}
+.menu li a {
+			font-family:'Anton',sans-serif;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-style: 14px;
+			letter-spacing: 0.05em;}
+.menu li{margin-right: 40px;}
+.tel {font-size: 17px;
+	text-decoration: none;
+	margin-left: 15px;
+ 	letter-spacing: 0.1em;}
+
+.nav { display: flex; 
+	align-items:center;
+	margin-top: 57px;
+	padding-top: 17px;}
+.telefon {width: 26px;
+		height: 26px;
+		margin-left:auto;}
+section {padding-top: 15px;}
+
+h1 {font-size: 45px;
+margin-bottom: 40pxS;}
+
+.opisanie {background: white;no-repeat center top / cover;
+	width: 1170px;
+    height: auto;}
+.inst {background: url(../images/inst.jpg);
+	width: 200px;
+	height: auto;
+	margin-left: 200px;
+	margin-bottom: 1px;}
+.Onas {display: block; /*отвечает за блок*/
+		
+		text-align: center;
+		padding: 10px 10px;
+		border: 3px solid black;
+		width: 150px;}
+.opisani {background: white;no-repeat center top / cover;
+	width: 670px;
+    height: auto;}
+.Dos {display: block; /*отвечает за блок*/
+		
+		text-align: center;
+		padding: 10px 10px;
+		border: 3px solid black;
+		width: 250px;}
+.dostavka {background: url(../images/dos.jpg);
+	width: 273px;
+	height: auto;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+.accop{font-size: 25px;
+	max-width: 500px;
+	margin: 0 }
+.kpb { background: url(../images/1.jpg); display: block;
+	text-align: right;
+	padding:10px 1px;
+	border: 2px solid black;
+	width: 283px;}
+.kpbbb{margin-left:auto;
+margin-bottom: auto;}
+.kpbr{
+	background: url(../images/fon.jpg);
+	width: 273px;
+	height: 465px;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+/*	Отдельная колонка*/
+.kpbqq { background: url(../images/2.jpg); display: block;
+	text-align: right;
+	padding:37px 1px;
+	border: 2px solid black;
+	width: 283px;}
+.kpbqqq{margin-left:auto;
+margin-bottom: auto;}
+.kpbq{
+	background: url(../images/2.jpg);
+	width: 273px;
+	height: 431px;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+/*	Заканчивается*//*	Отдельная колонка*/
+.kpbww { background: url(../images/3.jpg); display: block;
+	text-align: right;
+	padding:37px 1px;
+	border: 2px solid black;
+	width: 283px;}
+.kpbwww{margin-left:auto;
+margin-bottom: auto;}
+.kpbq{
+	background: url(../images/3.jpg);
+	width: 273px;
+	height: 431px;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+/*	Заканчивается*/
+.kpbqq { background: url(../images/2.jpg); display: block;
+	text-align: right;
+	padding:37px 1px;
+	border: 2px solid black;
+	width: 283px;}
+.kpbqqq{margin-left:auto;
+margin-bottom: auto;}
+.kpbq{
+	background: url(../images/2.jpg);
+	width: 273px;
+	height: 431px;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+/*	Заканчивается*/
+.kpb2q { background: url(../images/2.jpg); display: block;
+	text-align: right;
+	padding:20px 1px;
+	border: 2px solid black;
+	width: 283px;}
+.kpbq3q{margin-left:auto;
+margin-bottom: auto;}
+.kpbq{
+	background: url(../images/2.jpg);
+	width: 273px;
+	height: 431px;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+	.kpb4q { background: url(../images/2.jpg); display: block;
+	text-align: right;
+	padding: 27px 1px;
+	border: 2px solid black;
+	width: 283px;}
+	.kpb44q { background: url(../images/2.jpg); display: block;
+	text-align: right;
+	padding: 45px 1px;
+	border: 2px solid black;
+	width: 283px;}
+.kpbq6q{margin-left:auto;
+margin-bottom: auto;}
+.kpbq{
+	background: url(../images/2.jpg);
+	width: 273px;
+	height: 431px;
+	margin-right: 5px;
+	margin-bottom: 5px;}
+.CTPOKA{display: flex;
+justify-content: space-between;}
+.footer {background: #22233b; no-repeat center top / cover;
+height: 200px;}
+footer a{color: white;}
+.konec{display: flex;}
+.kohec li a {margin-bottom: 3px;
+			font-family:'Roboto',sans-serif;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-style: 14px;
+			letter-spacing: 0.05em;}
+.kohec li{margin-right: 40px;}
+.konec1{display: flex;}
+.kohec1 li a {margin-bottom: 3px;
+	margin-left: 10px;
+			font-family:'Roboto',sans-serif;
+			text-transform: none;
+			text-decoration: none;
+			font-style: 14px;
+			letter-spacing: 0.05em;}
+.kohec1 li{margin-right: 40px;}
+.insta {background: url(../images/inst.jpg);
+	width: 180px;
+	height: auto;
+	margin-left: 20px;
+	margin-bottom: 1px;}
